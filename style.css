@@ -45,21 +45,18 @@ body, html {
 
 .menu, .about, .contact {
     width: 100px;
-    height: 30px;
+    height: 40px;
     font-family: "Lora";
     font-weight: 800;
     color: #FFFFFF;
     font-size: 22px;
-    width: 120px;
-    height: 40px;
     text-align: center;
     padding-top: 10px;
     text-decoration: none;
-    border-radius: 2px;
 }
 
 .menu:hover, .about:hover, .contact:hover {
-    background-color: #726e6e9c;
+    color: antiquewhite;
 }
 
 .booking {
