@@ -1,0 +1,163 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #0E0E0E;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Logo and navigation bar */
+.container-header {
+    display: flex;
+    padding: 50px;
+    padding-bottom: 42px;
+    gap: 90px;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+
+.logo {
+    color: #FFFFFF;
+    font-size: 50px;
+    font-family: "Playfair Display";
+    width: 500px;
+    margin-left: 40px;
+}
+
+.buttons-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu, .about, .contact {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 22px;
+    font-family: "Lora";
+    font-weight: 800;
+    width: 100px;
+    height: 40px;
+    padding-top: 15px;
+}
+
+.menu:hover, .about:hover, .contact:hover {
+    color: antiquewhite;
+}
+
+.booking-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    margin-left: 45px;
+}
+
+.booking {
+    font-family: "Lora";
+    font-weight: 900;
+    background-color: #FAEEBC;
+    color: #0E0E0E;
+    font-size: 21px;
+    text-align: center;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: 0.3s;
+    width: 200px;
+    height: 40px;
+    padding-top: 10px;
+    transition: 0.3s;
+}
+
+.booking:hover {
+    background-color: #dac77d;
+    opacity: 1;
+}
+
+/* body */
+
+.title-con {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 30px;
+    color: #FFFFFF;
+    font-family: "Playfair Display";
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+hr {
+    width: 100px;
+}
+
+.section-container {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    gap: 17px;
+}
+
+.c-1, .c-2, .c-3, .c-4 {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.text {
+    color: #FFFFFF;
+    font-family: "Poppins";
+    font-size: 20px;
+}
+
+.icons {
+    background-color: white;
+    border-radius: 50px;
+    border: 1px solid;
+    padding: 10px
+}
+
+img {
+    width: 35px;
+}
+
+.s-img {
+    width: 450px;
+    margin-right: 100px;
+}
